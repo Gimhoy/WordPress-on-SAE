@@ -1,0 +1,5 @@
+<appwizard><introduction><name>WordPress 3.5.1 on SAE</name><author>Gimhoy</author><icon></icon><homepage>http://blog.gimhoy.com</homepage><description><![CDATA[]]></description></introduction><platform><services><service></service><service name="wordpress"  params="数据存储">Storage</service><service size="1M">Memcache</service><service>Mysql</service></services><appconfig><tpl><![CDATA[
+name: <<appname>>
+version: <<version>>
+
+]]></tpl></appconfig></platform><code><initScript>index.php</initScript></code></appwizard>
